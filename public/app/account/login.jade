@@ -1,0 +1,18 @@
+div(ng-controller='mvAccountCtrl')
+    form(method="post").helvaticaar
+        div.row
+            div.large-3.large-push-9.columns
+                label(for="userName") أسم المستخدم
+            div.large-9.large-pull-3.columns
+                input(type="text", placeholder='أسم المستخدم', class='helvaticaar', id='userName', ng-model='userName')
+        div.row
+            div.large-3.large-push-9.columns
+                label(for="Password") كلمة المرور
+            div.large-9.large-pull-3.columns
+                input(type='password', placeholder='كلمة المرور', class='helvaticaar', id='Password', ng-model='Password')
+        div.row
+            div.large-3.large-push-9.columns
+
+            div.large-9.large-pull-3.columns
+                button(type='submit', ng-click="signin(userName,Password)") Login
+

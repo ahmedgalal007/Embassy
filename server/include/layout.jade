@@ -1,0 +1,50 @@
+doctype html5
+html(lang='ar', dir='rtl', class='no-js')
+    head
+        //title= typeof(title) !== 'undefined' ? title : "Untitled template"
+        //meta(name='keywords', content='foo bar baz')
+        //meta(name='description', content='Description')
+        //meta(name='og:title', content=typeof(title) !== 'undefined' ? title : "Untitled template")
+        link(href='/favicon.png', rel='shortcut icon', type='image/x-icon')
+        //link(href='/css/vendors.css', rel='stylesheet')
+        link(href='/css/scss/foundation.css', rel='stylesheet')
+        link(href='/css/scss/site.css', rel='stylesheet')
+        script(type='text/javascript', src='/vendor/modernizr/modernizr.js')
+    body(ng-app='app')
+        base(href='/')
+        div.row
+            div.large-12.columns
+                div.nav-bar.right
+                    ul.button-group
+                        li
+                            a(href="#", class="button") Link 1
+                        li
+                            a(href="#", class="button") Link 2
+                        li
+                            a(href="#", class="button") Link 3
+                        li
+                            a(href="#", class="button") Link 4
+                        li
+                            a(href="#", class="button") Link 5
+                        li
+                            a(href="#", class="button") Link 6
+                        li
+                            a(href="#", class="button") Link 7
+                        li
+                            a(href="#", class="button") Link 8
+
+        div.row
+            div.large-12.columns
+                h1 Blog <small>This is my blog. It's awesome.
+                input(type='text', placeholder='this is placeholder')
+                hr
+
+        div.row
+            div.large-12.columns
+                block main-content
+        div.row
+            div.large-6.large-push-6.columns 6 cols 1
+            vr
+            div.large-3.large-pull-3.columns 3 cols 2
+            div.large-3.large-pull-9.columns 3 cols 3
+        include scripts

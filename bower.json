@@ -1,0 +1,28 @@
+{
+  "name": "ardb.com",
+  "version": "0.0.0",
+  "authors": [
+    "ahmedgalal007 <ahmedgalal007@hotmail.com>"
+  ],
+  "description": "Client app for OAuth2 server",
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.4",
+    "jquery": "~2.1.4",
+    "toastr": "~2.1.1",
+    "angular": "~1.4.0",
+    "angular-resource": "~1.4.0",
+    "angular-route": "~1.4.0",
+    "modernizer": "~2.8.2"
+  }
+}

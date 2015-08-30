@@ -1,0 +1,23 @@
+@import "variables";
+
+@font-face{
+  font-family: $font-family;
+  src: url($fonts-base-dir + $font-family + '/' + $font-name + '.eot');
+  src: url($fonts-base-dir + $font-family + '/' + $font-name +  '.eot?#iefix') format('embedded-opentype'),
+  url($fonts-base-dir + $font-family + '/' + $font-name +  '.woff') format('woff'),
+  url($fonts-base-dir + $font-family + '/' + $font-name +  '.ttf') format('truetype'),
+  url($fonts-base-dir + $font-family + '/' + $font-name +  '.svg#webfont') format('svg');
+}
+
+
+.helvaticaar{
+  font-family: $font-family;
+  -webkit-font-smoothing: antialiased;
+  font-size: 3em;
+}
+body{
+  color: $primary-color;
+
+}
+
+

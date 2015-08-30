@@ -1,0 +1,16 @@
+@font-face {
+  font-family: "HelveticaNeueLTArabic";
+  src: url("../../fonts/HelveticaNeueLTArabic/HelveticaNeueLTArabic-Light_nohint.eot");
+  src: url("../../fonts/HelveticaNeueLTArabic/HelveticaNeueLTArabic-Light_nohint.eot?#iefix") format("embedded-opentype"), url("../../fonts/HelveticaNeueLTArabic/HelveticaNeueLTArabic-Light_nohint.woff") format("woff"), url("../../fonts/HelveticaNeueLTArabic/HelveticaNeueLTArabic-Light_nohint.ttf") format("truetype"), url("../../fonts/HelveticaNeueLTArabic/HelveticaNeueLTArabic-Light_nohint.svg#webfont") format("svg");
+}
+.helvaticaar {
+  font-family: "HelveticaNeueLTArabic";
+  -webkit-font-smoothing: antialiased;
+  font-size: 3em;
+}
+
+body {
+  color: #333;
+}
+
+/*# sourceMappingURL=site.css.map */
